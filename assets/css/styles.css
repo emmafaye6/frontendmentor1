@@ -53,6 +53,7 @@ border-top-left-radius: 10px;
 border-bottom-left-radius: 0px;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 0px;
+margin-top:0.625rem;
 background-image:url("/assets/css/image-product-mobile.jpg");
 background-position:top center;
 background-repeat:no-repeat;
@@ -91,7 +92,7 @@ margin-right: 30px;
 }
 
 .pricenew{
-color:#5ca187;
+color:#35735b;
 font-size: 2.5em;
 font-weight: 800;
 font-family: 'Fraunces', serif;
@@ -101,6 +102,22 @@ font-family: 'Fraunces', serif;
 text-decoration:line-through;
 color:#707176;
 padding-left: 1em;
+}
+
+button{
+background-color:#35735b;
+border:none;
+color:white;
+display:flex;
+align-content:center;
+justify-content:center;
+align-items:center;
+padding-left:80px;
+padding-right:80px;
+height:50px;
+margin-top:2.5rem;
+border-radius:10px;
+width:65%;
 }
 
 
