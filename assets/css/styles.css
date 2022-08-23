@@ -43,9 +43,10 @@ margin:0 auto;
 margin-top:25vh;
 background-color:white;
 height:50vh;
-max-height:80vh;
+max-height:70vh;
 width:61vw;
-border-radius:12%;
+min-width:40rem;
+border-radius:10px;
 }
 
 .imgcontainer{
@@ -57,12 +58,12 @@ border-bottom-right-radius: 0px;
 background-image:url("/assets/css/image-product-mobile.jpg");
 background-repeat:no-repeat;
 background-size:100% auto;
-width:61vw;
+width:100%;
 }
 
 .content{
 margin:1.25;
-padding:2em;
+padding:8rem;
 }
 
 .perfume{
@@ -119,38 +120,44 @@ align-items:center;
 padding-left:80px;
 padding-right:80px;
 height:50px;
-margin-top:3rem;
 border-radius:10px;
 width:65%;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (min-width:1440px){
 
 .maincontainer{
-width:75.9vw;
-height:45.9vh;
+width:45.9vw;
+height:65.9vh;
 margin-left:auto;
 margin-right:auto;
-margin-top:25vh;
+margin-top:15vh;
 margin-bottom:auto;
+display:flex;
+flex-direction:row;
 }
 
-.img-container{
-background-image:url("./assets/css/image-product-desktop.jpg");
+.imgcontainer{
+background-image:url("/assets/css/image-product-desktop.jpg");
 background-repeat:no-repeat;
-background-size:100% auto;
+background-size:cover;
+min-height:100%;
+max-height:140%;
+max-width:50%;
 border-top-left-radius: 10px;
-border-bottom-left-radius: 0px;
+border-bottom-left-radius: 10px;
 border-top-right-radius: 10px;
-border-bottom-right-radius: 0px;
+border-bottom-right-radius: 10px;
 }
 
 button{
-width:65%;
+width:85%;
 padding-left:60px;
 padding-right:60px;
 }
+
 }
+
 
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
