@@ -55,7 +55,7 @@ border-top-left-radius: 10px;
 border-bottom-left-radius: 0px;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 0px;
-background-image:url("/assets/css/image-product-mobile.jpg");
+background-image:url("./img/image-product-mobile.jpg");
 background-repeat:no-repeat;
 background-size:100% auto;
 width:100%;
@@ -123,11 +123,15 @@ padding-left:80px;
 padding-right:80px;
 height:50px;
 border-radius:10px;
-width:65%;
+width:70%;
 }
 
 button:hover{
 background-color:#719d8c;
+}
+
+.button{
+padding:5px;
 }
 
 @media screen and (min-width:768px) and (min-width:1440px){
@@ -144,7 +148,7 @@ flex-direction:row;
 }
 
 .imgcontainer{
-background-image:url("/assets/css/image-product-desktop.jpg");
+background-image:url("./img/image-product-desktop.jpg");
 background-repeat:no-repeat;
 background-size:cover;
 min-height:100%;
@@ -157,11 +161,10 @@ border-bottom-right-radius: 10px;
 }
 
 button{
-width:85%;
+width:95%;
 padding-left:60px;
 padding-right:60px;
 }
-
 
 }
 
