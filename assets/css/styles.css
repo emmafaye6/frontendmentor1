@@ -144,7 +144,7 @@ flex-direction:row;
 }
 
 .imgcontainer{
-background-image:url("/assets/css/image-product-desktop.jpg");
+background-image:url("assets/css/image-product-desktop.jpg");
 background-repeat:no-repeat;
 background-size:cover;
 min-height:100%;
