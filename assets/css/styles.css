@@ -38,21 +38,24 @@ body {
 .maincontainer {
     display: flex;
     flex-direction: column;
+    align-self:center;
+    margin:0 auto;
+    margin-top:15vh;
     padding: 0;
-    margin: 0 auto;
-    margin-top: 25vh;
     background-color: white;
     height: 70vh;
     max-height: 70vh;
     width: 61vw;
-    max-width: 61vw;
+    max-width: 45vw;
     min-width: 40rem;
+    max-height:48rem;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .imgcontainer {
     height: 15rem;
+    min-height:12rem;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
@@ -135,17 +138,17 @@ button:hover {
     padding: 5px;
 }
 
-@media screen and (min-width:768px) and (min-width:1440px) {
+@media screen and (min-width:1440px){
 
     .maincontainer {
         width: 45.9vw;
         height: 65.9vh;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 15vh;
-        margin-bottom: auto;
+        margin-top:15vh;
         display: flex;
         flex-direction: row;
+        align-self:center;
     }
 
     .imgcontainer {
